@@ -1,0 +1,97 @@
+@import '~bulma/bulma.sass';
+
+.welcome-box {
+  height: 200px;
+  width: 2500px;
+  background-color: rgba(13, 70, 82, 0.7);
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.AppBar {
+  background-color: rgb(240, 173, 4);
+}
+
+.logo {
+  color: rgb(240, 173, 4);
+}
+
+.navigation {
+  background-color: rgb(100, 57, 9);
+  color:rgb(100, 57, 9)
+}
+/* rgb(100, 57, 9) */
+
+.index-page, .PetView, .loginPage {
+  /* background-color: rgb(95, 113, 106); */
+  background-size: cover;
+  height: 1500px;
+  margin: 0 auto;
+}
+
+.PetCard {
+  background-color: rgb(121, 144, 120);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'American Typewriter (serif)';
+  width: 100%
+}
+
+.loginForm {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 300px;
+  width: 250px;
+  align-items: center;
+  border-radius: 100px;
+  padding: 20px
+}
+
+.textField {
+  padding-top: 100px;
+  width: 250px;
+  color: white;
+}
+
+.innerLogin {
+  margin-top: 100px;
+  width: 250px;
+  color: white;
+}
+
+.regForm {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 400px;
+  width: 400px;
+  border-radius: 70px;
+  padding: 40px;
+}
+
+.petView {
+  display: flex;
+  align-content: center;
+  height: 900px;
+}
+
+.image {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.box {
+  margin-top: 150px;
+  width: 500px;
+}
+
+.MessageBox {
+  margin-top: 150px;
+  margin-right: 100px;
+}
